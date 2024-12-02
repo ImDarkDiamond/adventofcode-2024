@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+
+members = ["day-*"]
+default-members = ["day-*"]
+
+[workspace.dependencies]
+anyhow = "1.0.93"
+divan = "0.1.16"
