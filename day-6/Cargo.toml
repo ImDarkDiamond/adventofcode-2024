@@ -1,0 +1,15 @@
+[package]
+name = "day-6"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day-6"
+path = "benches/benchmark.rs"
+harness = false
